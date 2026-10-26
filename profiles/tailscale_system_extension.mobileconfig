@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>AllowUserOverrides</key>
+				<false/>
+				<key>AllowedSystemExtensionTypes</key>
+				<dict>
+					<key>W5364U7YZB</key>
+					<array>
+						<string>NetworkExtension</string>
+					</array>
+				</dict>
+				<key>AllowedSystemExtensions</key>
+				<dict>
+					<key>W5364U7YZB</key>
+					<array>
+						<string>io.tailscale.ipn.macsys.network-extension</string>
+					</array>
+				</dict>
+				<key>PayloadDescription</key>
+				<string/>
+				<key>PayloadDisplayName</key>
+				<string>System Extension Policy - Tailscale</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadIdentifier</key>
+				<string>com.example.tailscale.sysext.policy</string>
+				<key>PayloadOrganization</key>
+				<string>example</string>
+				<key>PayloadType</key>
+				<string>com.apple.system-extension-policy</string>
+				<key>PayloadUUID</key>
+				<string>3546CED2-901C-46C1-AE36-59F9EA7E304D</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string/>
+		<key>PayloadDisplayName</key>
+		<string>Tailscale - System Extension</string>
+		<key>PayloadEnabled</key>
+		<true/>
+		<key>PayloadIdentifier</key>
+		<string>0bc56f23-031a-4fa4-bd67-1eb36ca5bd06</string>
+		<key>PayloadOrganization</key>
+		<string>Example</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>0bc56f23-031a-4fa4-bd67-1eb36ca5bd06</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

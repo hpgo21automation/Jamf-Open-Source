@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>Label</key>
+				<string>com.example.checkin-recon</string>
+				<key>PayloadDisplayName</key>
+				<string>Jamf Check-in Recon Daemon</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadIdentifier</key>
+				<string>CH3CK1N-0002-4E3C-B8A7-EXAMPLE002</string>
+				<key>PayloadType</key>
+				<string>com.apple.launchd.plist</string>
+				<key>PayloadUUID</key>
+				<string>CH3CK1N-0002-4E3C-B8A7-EXAMPLE002</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>ProgramArguments</key>
+				<array>
+					<string>/bin/bash</string>
+					<string>-c</string>
+					<string>/usr/local/bin/jamf policy; /usr/local/bin/jamf recon</string>
+				</array>
+				<key>RunAtLoad</key>
+				<false/>
+				<key>StandardErrorPath</key>
+				<string>/var/log/jamf-checkin-recon.log</string>
+				<key>StandardOutPath</key>
+				<string>/var/log/jamf-checkin-recon.log</string>
+				<key>StartCalendarInterval</key>
+				<array>
+					<dict>
+						<key>Hour</key>
+						<integer>9</integer>
+						<key>Minute</key>
+						<integer>0</integer>
+					</dict>
+					<dict>
+						<key>Hour</key>
+						<integer>21</integer>
+						<key>Minute</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Runs jamf policy and recon at 09:00 and 21:00 daily.</string>
+		<key>PayloadDisplayName</key>
+		<string>Jamf Check-in Recon Daemon</string>
+		<key>PayloadEnabled</key>
+		<true/>
+		<key>PayloadIdentifier</key>
+		<string>75508be6-e523-4a39-b736-97e1ee5fe727</string>
+		<key>PayloadOrganization</key>
+		<string>example</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>75508be6-e523-4a39-b736-97e1ee5fe727</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

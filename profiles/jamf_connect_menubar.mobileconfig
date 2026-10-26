@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>Appearance</key>
+				<dict>
+					<key>AlternateBranding</key>
+					<false/>
+					<key>ShowWelcomeWindow</key>
+					<false/>
+				</dict>
+				<key>CustomMenuItems</key>
+				<dict>
+					<key>connect</key>
+					<string>Okta Apps</string>
+					<key>getsoftware</key>
+					<string>Example Self Service</string>
+				</dict>
+				<key>HiddenMenuItems</key>
+				<array>
+					<string>about</string>
+					<string>actions</string>
+					<string>gethelp</string>
+					<string>home</string>
+					<string>preferences</string>
+					<string>resetpassword</string>
+					<string>shares</string>
+					<string>quitjamfconnect</string>
+					<string>userprivileges</string>
+				</array>
+				<key>IdPSettings</key>
+				<dict>
+					<key>ChangePasswordURL</key>
+					<string>https://example.okta.com/enduser/settings</string>
+					<key>OIDCClientID</key>
+					<string>REDACTED</string>
+					<key>Provider</key>
+					<string>OktaIdentityEngine</string>
+					<key>Scopes</key>
+					<string>openid profile email groups</string>
+					<key>TenantID</key>
+					<string>example.okta.com</string>
+				</dict>
+				<key>PasswordPolicies</key>
+				<dict>
+					<key>ExpirationManualOverrideDays</key>
+					<integer>365</integer>
+					<key>ExpirationNotificationStartDay</key>
+					<integer>15</integer>
+					<key>NetworkCheck</key>
+					<integer>15</integer>
+					<key>PasswordChangeWorkflow</key>
+					<string>Web</string>
+					<key>PasswordSyncBlockList</key>
+					<array>
+						<string>srv_support</string>
+						<string>srv_mac</string>
+					</array>
+					<key>SyncPasswordsMessage</key>
+					<string>Your macOS and Okta passwords do not match</string>
+				</dict>
+				<key>PayloadDisplayName</key>
+				<string>Jamf Connect Menubar</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.jamfconnect.menubar.settings</string>
+				<key>PayloadType</key>
+				<string>com.jamf.connect</string>
+				<key>PayloadUUID</key>
+				<string>9C3D4E5F-6A78-90BC-DEF0-123456789ABC</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>SharedTokenTrustedApplications</key>
+				<array>
+					<string>/Applications/Example Self Service.app/Contents/MacOS/Self Service+</string>
+				</array>
+				<key>SignIn</key>
+				<dict>
+					<key>AutoAuthenticate</key>
+					<true/>
+					<key>AutoMFA</key>
+					<true/>
+					<key>AutoOpenAppAtLogin</key>
+					<true/>
+					<key>SignInLogo</key>
+					<string>/usr/local/jamfconnect/logo.png</string>
+					<key>WindowTitle</key>
+					<string>Sign in with your Example Okta</string>
+				</dict>
+				<key>UserHelp</key>
+				<dict>
+					<key>HelpType</key>
+					<string>URL</string>
+					<key>SoftwarePath</key>
+					<string>/Applications/Example Self Service.app</string>
+				</dict>
+				<key>WebBrowser</key>
+				<dict>
+					<key>BrowserSelection</key>
+					<string>Google Chrome</string>
+					<key>LaunchBrowser</key>
+					<true/>
+				</dict>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string/>
+		<key>PayloadDisplayName</key>
+		<string>Jamf Connect - Menubar</string>
+		<key>PayloadEnabled</key>
+		<true/>
+		<key>PayloadIdentifier</key>
+		<string>4a9ba70f-9145-4e0f-a59e-9681b1d2f5a2</string>
+		<key>PayloadOrganization</key>
+		<string>Example</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>4a9ba70f-9145-4e0f-a59e-9681b1d2f5a2</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

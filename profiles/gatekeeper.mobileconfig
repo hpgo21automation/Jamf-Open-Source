@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>AllowIdentifiedDevelopers</key>
+				<true/>
+				<key>EnableAssessment</key>
+				<true/>
+				<key>PayloadDisplayName</key>
+				<string>SystemPolicyControl</string>
+				<key>PayloadIdentifier</key>
+				<string>360AC09D-69B7-4690-9D7A-B675CF9C207D</string>
+				<key>PayloadOrganization</key>
+				<string>JAMF Software</string>
+				<key>PayloadType</key>
+				<string>com.apple.systempolicy.control</string>
+				<key>PayloadUUID</key>
+				<string>360AC09D-69B7-4690-9D7A-B675CF9C207D</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Enforces Gatekeeper to allow only App Store and identified developers.</string>
+		<key>PayloadDisplayName</key>
+		<string>Security - Gatekeeper</string>
+		<key>PayloadEnabled</key>
+		<true/>
+		<key>PayloadIdentifier</key>
+		<string>401a8cf4-f42a-4aed-953b-806ddac801e9</string>
+		<key>PayloadOrganization</key>
+		<string>example</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>401a8cf4-f42a-4aed-953b-806ddac801e9</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  CI-validation placeholder ONLY. The real Firewall payload is managed in the
+  Jamf GUI; the Terraform resource sets lifecycle.ignore_changes = [payloads],
+  so this content is never pushed to existing (GUI-managed) profiles. It exists
+  solely so a from-empty `terraform plan` in CI validates (the provider requires
+  the top-level Payload* keys). PayloadContent is intentionally empty — if this
+  were ever created, it installs no settings.
+-->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array/>
+    <key>PayloadDisplayName</key>
+    <string>Security - Firewall</string>
+    <key>PayloadIdentifier</key>
+    <string>A1B2C3D4-0001-4001-8001-000000000001</string>
+    <key>PayloadOrganization</key>
+    <string>Example</string>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>A1B2C3D4-0001-4001-8001-000000000001</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>

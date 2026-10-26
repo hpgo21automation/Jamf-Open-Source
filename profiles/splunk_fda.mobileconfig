@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadDescription</key>
+				<string/>
+				<key>PayloadDisplayName</key>
+				<string>PRIVACY_PREFERENCES_POLICY_CONTROL</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadIdentifier</key>
+				<string>8F3A2B1C-4D5E-6F7A-8B9C-0D1E2F3A4B5C</string>
+				<key>PayloadOrganization</key>
+				<string>example</string>
+				<key>PayloadType</key>
+				<string>com.apple.TCC.configuration-profile-policy</string>
+				<key>PayloadUUID</key>
+				<string>8F3A2B1C-4D5E-6F7A-8B9C-0D1E2F3A4B5C</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>Services</key>
+				<dict>
+					<key>SystemPolicyAllFiles</key>
+					<array>
+						<dict>
+							<key>Allowed</key>
+							<true/>
+							<key>CodeRequirement</key>
+							<string>identifier &#34;com.splunk.forwarder&#34; and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VN6F784GQ6</string>
+							<key>Identifier</key>
+							<string>com.splunk.forwarder</string>
+							<key>IdentifierType</key>
+							<string>bundleID</string>
+							<key>StaticCode</key>
+							<false/>
+						</dict>
+						<dict>
+							<key>Allowed</key>
+							<true/>
+							<key>CodeRequirement</key>
+							<string>identifier &#34;com.splunk.splunkd&#34; and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VN6F784GQ6</string>
+							<key>Identifier</key>
+							<string>/opt/splunkforwarder/bin/splunkd</string>
+							<key>IdentifierType</key>
+							<string>path</string>
+							<key>StaticCode</key>
+							<false/>
+						</dict>
+						<dict>
+							<key>Allowed</key>
+							<true/>
+							<key>CodeRequirement</key>
+							<string>identifier &#34;com.splunk.splunk&#34; and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VN6F784GQ6</string>
+							<key>Identifier</key>
+							<string>/opt/splunkforwarder/bin/splunk</string>
+							<key>IdentifierType</key>
+							<string>path</string>
+							<key>StaticCode</key>
+							<false/>
+						</dict>
+						<dict>
+							<key>Allowed</key>
+							<true/>
+							<key>CodeRequirement</key>
+							<string>anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VN6F784GQ6</string>
+							<key>Identifier</key>
+							<string>/opt/splunkforwarder/bin/python3.9</string>
+							<key>IdentifierType</key>
+							<string>path</string>
+							<key>StaticCode</key>
+							<false/>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Grants Full Disk Access to Splunk Universal Forwarder</string>
+		<key>PayloadDisplayName</key>
+		<string>Splunk Universal Forwarder - Full Disk Access</string>
+		<key>PayloadEnabled</key>
+		<true/>
+		<key>PayloadIdentifier</key>
+		<string>43e143be-fa4b-4a82-894d-08646585cf0b</string>
+		<key>PayloadOrganization</key>
+		<string>Example</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>43e143be-fa4b-4a82-894d-08646585cf0b</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

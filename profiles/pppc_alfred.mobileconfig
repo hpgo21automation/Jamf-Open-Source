@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadDescription</key>
+				<string>example</string>
+				<key>PayloadDisplayName</key>
+				<string>example</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadIdentifier</key>
+				<string>D4A1E3B2-7F6C-4D8E-9A5B-1C2D3E4F5A6B</string>
+				<key>PayloadOrganization</key>
+				<string>example</string>
+				<key>PayloadType</key>
+				<string>com.apple.TCC.configuration-profile-policy</string>
+				<key>PayloadUUID</key>
+				<string>D4A1E3B2-7F6C-4D8E-9A5B-1C2D3E4F5A6B</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>Services</key>
+				<dict>
+					<key>Accessibility</key>
+					<array>
+						<dict>
+							<key>Allowed</key>
+							<true/>
+							<key>CodeRequirement</key>
+							<string>identifier &#34;com.runningwithcrayons.Alfred&#34; and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = XZZXE9SED4</string>
+							<key>Identifier</key>
+							<string>com.runningwithcrayons.Alfred</string>
+							<key>IdentifierType</key>
+							<string>bundleID</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Grants Accessibility permission to Alfred 5</string>
+		<key>PayloadDisplayName</key>
+		<string>PPPC - Alfred</string>
+		<key>PayloadEnabled</key>
+		<true/>
+		<key>PayloadIdentifier</key>
+		<string>4d92817d-380b-4050-92a2-96f3b1f53953</string>
+		<key>PayloadOrganization</key>
+		<string>example</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>4d92817d-380b-4050-92a2-96f3b1f53953</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

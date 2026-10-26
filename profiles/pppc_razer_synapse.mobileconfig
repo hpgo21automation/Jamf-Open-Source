@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadDescription</key>
+				<string>example</string>
+				<key>PayloadDisplayName</key>
+				<string>example</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadIdentifier</key>
+				<string>405930EC-943D-4133-9A5D-C86FC2B84936</string>
+				<key>PayloadOrganization</key>
+				<string>example</string>
+				<key>PayloadType</key>
+				<string>com.apple.TCC.configuration-profile-policy</string>
+				<key>PayloadUUID</key>
+				<string>405930EC-943D-4133-9A5D-C86FC2B84936</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>Services</key>
+				<dict>
+					<key>Accessibility</key>
+					<array>
+						<dict>
+							<key>Allowed</key>
+							<true/>
+							<key>CodeRequirement</key>
+							<string>anchor apple generic and identifier &#34;com.razer.synapse&#34; and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = R2H967U7J8)</string>
+							<key>Comment</key>
+							<string/>
+							<key>Identifier</key>
+							<string>com.razer.synapse</string>
+							<key>IdentifierType</key>
+							<string>bundleID</string>
+						</dict>
+						<dict>
+							<key>Allowed</key>
+							<true/>
+							<key>CodeRequirement</key>
+							<string>identifier &#34;com.razer.appengine.app&#34; and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = R2H967U7J8</string>
+							<key>Comment</key>
+							<string/>
+							<key>Identifier</key>
+							<string>com.razer.appengine.app</string>
+							<key>IdentifierType</key>
+							<string>bundleID</string>
+						</dict>
+					</array>
+					<key>ListenEvent</key>
+					<array>
+						<dict>
+							<key>Authorization</key>
+							<string>AllowStandardUserToSetSystemService</string>
+							<key>CodeRequirement</key>
+							<string>anchor apple generic and identifier &#34;com.razer.synapse&#34; and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = R2H967U7J8)</string>
+							<key>Comment</key>
+							<string/>
+							<key>Identifier</key>
+							<string>com.razer.synapse</string>
+							<key>IdentifierType</key>
+							<string>bundleID</string>
+						</dict>
+						<dict>
+							<key>Authorization</key>
+							<string>AllowStandardUserToSetSystemService</string>
+							<key>CodeRequirement</key>
+							<string>identifier &#34;com.razer.appengine.app&#34; and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = R2H967U7J8</string>
+							<key>Comment</key>
+							<string/>
+							<key>Identifier</key>
+							<string>com.razer.appengine.app</string>
+							<key>IdentifierType</key>
+							<string>bundleID</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Grants Accessibility and Input Monitoring permissions to Razer and Razer Synapse</string>
+		<key>PayloadDisplayName</key>
+		<string>PPPC - Razer Synapse</string>
+		<key>PayloadEnabled</key>
+		<true/>
+		<key>PayloadIdentifier</key>
+		<string>0fb69452-4bd1-457d-9317-aa9962396c9d</string>
+		<key>PayloadOrganization</key>
+		<string>example</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>0fb69452-4bd1-457d-9317-aa9962396c9d</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

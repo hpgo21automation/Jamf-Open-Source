@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadContent</key>
+				<dict>
+					<key>com.jamf.setupmanager</key>
+					<dict>
+						<key>Forced</key>
+						<array>
+							<dict>
+								<key>mcx_preference_settings</key>
+								<dict>
+									<key>PayloadContent</key>
+									<array>
+										<dict>
+											<key>PayloadDisplayName</key>
+											<string>Setup Manager</string>
+											<key>PayloadIdentifier</key>
+											<string>com.example.setupmanager</string>
+											<key>PayloadType</key>
+											<string>com.jamf.setupmanager</string>
+											<key>PayloadUUID</key>
+											<string>A1B2C3D4-E5F6-7890-ABCD-EF1234567890</string>
+											<key>PayloadVersion</key>
+											<integer>1</integer>
+											<key>computerNameTemplate</key>
+											<string>MAC-%serial%</string>
+											<key>continueOnFailure</key>
+											<true/>
+											<key>debugMode</key>
+											<true/>
+											<key>enrollmentActions</key>
+											<array>
+												<dict>
+													<key>icon</key>
+													<string>symbol:gear</string>
+													<key>label</key>
+													<string>Preparing...</string>
+													<key>wait</key>
+													<integer>60</integer>
+												</dict>
+												<dict>
+													<key>icon</key>
+													<string>symbol:shield.checkered</string>
+													<key>label</key>
+													<string>CrowdStrike Falcon</string>
+													<key>timeout</key>
+													<integer>600</integer>
+													<key>watchPath</key>
+													<string>/Applications/Falcon.app</string>
+												</dict>
+												<dict>
+													<key>icon</key>
+													<string>/Applications/Microsoft Word.app</string>
+													<key>installomator</key>
+													<string>microsoftoffice365</string>
+													<key>label</key>
+													<string>Microsoft Office 365</string>
+													<key>timeout</key>
+													<integer>900</integer>
+												</dict>
+												<dict>
+													<key>icon</key>
+													<string>/Applications/Adobe Acrobat Reader.app</string>
+													<key>installomator</key>
+													<string>adobereaderdc</string>
+													<key>label</key>
+													<string>Adobe Acrobat Reader</string>
+													<key>timeout</key>
+													<integer>600</integer>
+												</dict>
+												<dict>
+													<key>icon</key>
+													<string>/Applications/Google Chrome.app</string>
+													<key>installomator</key>
+													<string>googlechromepkg</string>
+													<key>label</key>
+													<string>Google Chrome</string>
+													<key>timeout</key>
+													<integer>600</integer>
+												</dict>
+												<dict>
+													<key>icon</key>
+													<string>/Applications/Slack.app</string>
+													<key>installomator</key>
+													<string>slack</string>
+													<key>label</key>
+													<string>Slack</string>
+													<key>timeout</key>
+													<integer>600</integer>
+												</dict>
+												<dict>
+													<key>icon</key>
+													<string>/Applications/zoom.us.app</string>
+													<key>installomator</key>
+													<string>zoom</string>
+													<key>label</key>
+													<string>Zoom</string>
+													<key>timeout</key>
+													<integer>600</integer>
+												</dict>
+												<dict>
+													<key>icon</key>
+													<string>/Applications/1Password.app</string>
+													<key>installomator</key>
+													<string>1password8</string>
+													<key>label</key>
+													<string>1Password</string>
+													<key>timeout</key>
+													<integer>600</integer>
+												</dict>
+												<dict>
+													<key>icon</key>
+													<string>/Applications/Tailscale.app</string>
+													<key>installomator</key>
+													<string>tailscale</string>
+													<key>label</key>
+													<string>Tailscale</string>
+													<key>timeout</key>
+													<integer>600</integer>
+												</dict>
+												<dict>
+													<key>icon</key>
+													<string>/Applications/Okta Verify.app</string>
+													<key>installomator</key>
+													<string>oktaverify</string>
+													<key>label</key>
+													<string>Okta Verify</string>
+													<key>timeout</key>
+													<integer>600</integer>
+												</dict>
+												<dict>
+													<key>icon</key>
+													<string>/Applications/DisplayLink Manager.app</string>
+													<key>installomator</key>
+													<string>displaylinkmanager</string>
+													<key>label</key>
+													<string>DisplayLink Manager</string>
+													<key>timeout</key>
+													<integer>600</integer>
+												</dict>
+												<dict>
+													<key>icon</key>
+													<string>/Applications/Company Portal.app</string>
+													<key>installomator</key>
+													<string>microsoftcompanyportal</string>
+													<key>label</key>
+													<string>Microsoft Intune</string>
+													<key>timeout</key>
+													<integer>600</integer>
+												</dict>
+												<dict>
+													<key>icon</key>
+													<string>/Applications/Loom.app</string>
+													<key>installomator</key>
+													<string>loom</string>
+													<key>label</key>
+													<string>Loom</string>
+													<key>timeout</key>
+													<integer>600</integer>
+												</dict>
+												<dict>
+													<key>icon</key>
+													<string>/Applications/Windows App.app</string>
+													<key>installomator</key>
+													<string>microsoftremotedesktop</string>
+													<key>label</key>
+													<string>Microsoft Windows App</string>
+													<key>timeout</key>
+													<integer>600</integer>
+												</dict>
+												<dict>
+													<key>icon</key>
+													<string>/Applications/Claude.app</string>
+													<key>installomator</key>
+													<string>claude</string>
+													<key>label</key>
+													<string>Claude</string>
+													<key>timeout</key>
+													<integer>300</integer>
+												</dict>
+												<dict>
+													<key>icon</key>
+													<string>symbol:photo.artframe</string>
+													<key>label</key>
+													<string>Example Wallpaper</string>
+													<key>policy</key>
+													<string>deploy-wallpaper</string>
+													<key>timeout</key>
+													<integer>300</integer>
+												</dict>
+												<dict>
+													<key>icon</key>
+													<string>symbol:checkmark.circle</string>
+													<key>label</key>
+													<string>Finalizing Setup</string>
+													<key>recon</key>
+													<true/>
+													<key>timeout</key>
+													<integer>300</integer>
+												</dict>
+											</array>
+											<key>finalAction</key>
+											<string>none</string>
+											<key>finishedTrigger</key>
+											<string>install-jamfconnect</string>
+											<key>icon</key>
+											<string>https://cdn.sanity.io/images/bpyvas7v/production/79dd9a21d748e4909995b99ac5135a396ff61f2b-946x564.png</string>
+											<key>message</key>
+											<string>Setting up your Mac. This may take a few minutes...</string>
+											<key>runAt</key>
+											<string>loginwindow</string>
+											<key>title</key>
+											<string>Welcome to Example</string>
+										</dict>
+									</array>
+									<key>PayloadDisplayName</key>
+									<string>Example Setup Manager</string>
+									<key>PayloadIdentifier</key>
+									<string>com.example.profile.setupmanager</string>
+									<key>PayloadOrganization</key>
+									<string>Example</string>
+									<key>PayloadScope</key>
+									<string>System</string>
+									<key>PayloadType</key>
+									<string>Configuration</string>
+									<key>PayloadUUID</key>
+									<string>F1E2D3C4-B5A6-7890-1234-567890ABCDEF</string>
+									<key>PayloadVersion</key>
+									<integer>1</integer>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+				</dict>
+				<key>PayloadDisplayName</key>
+				<string>Custom Settings</string>
+				<key>PayloadIdentifier</key>
+				<string>D3FE93F9-16E8-45F6-A6FC-DAC625B6F427</string>
+				<key>PayloadOrganization</key>
+				<string>JAMF Software</string>
+				<key>PayloadType</key>
+				<string>com.apple.ManagedClient.preferences</string>
+				<key>PayloadUUID</key>
+				<string>D3FE93F9-16E8-45F6-A6FC-DAC625B6F427</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>PayloadDisplayName</key>
+				<string>Setup Manager</string>
+				<key>PayloadIdentifier</key>
+				<string>97E7349B-227F-4815-9869-DEF608E7C9E8</string>
+				<key>PayloadType</key>
+				<string>com.jamf.setupmanager</string>
+				<key>PayloadUUID</key>
+				<string>97E7349B-227F-4815-9869-DEF608E7C9E8</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>computerNameTemplate</key>
+				<string>MAC-%serial%</string>
+				<key>continueOnFailure</key>
+				<true/>
+				<key>debugMode</key>
+				<true/>
+				<key>enrollmentActions</key>
+				<array>
+					<dict>
+						<key>icon</key>
+						<string>symbol:gear</string>
+						<key>label</key>
+						<string>Preparing...</string>
+						<key>wait</key>
+						<integer>60</integer>
+					</dict>
+					<dict>
+						<key>icon</key>
+						<string>symbol:shield.checkered</string>
+						<key>label</key>
+						<string>CrowdStrike Falcon</string>
+						<key>timeout</key>
+						<integer>600</integer>
+						<key>watchPath</key>
+						<string>/Applications/Falcon.app</string>
+					</dict>
+					<dict>
+						<key>icon</key>
+						<string>/Applications/Microsoft Word.app</string>
+						<key>installomator</key>
+						<string>microsoftoffice365</string>
+						<key>label</key>
+						<string>Microsoft Office 365</string>
+						<key>timeout</key>
+						<integer>900</integer>
+					</dict>
+					<dict>
+						<key>icon</key>
+						<string>/Applications/Adobe Acrobat Reader.app</string>
+						<key>installomator</key>
+						<string>adobereaderdc</string>
+						<key>label</key>
+						<string>Adobe Acrobat Reader</string>
+						<key>timeout</key>
+						<integer>600</integer>
+					</dict>
+					<dict>
+						<key>icon</key>
+						<string>/Applications/Google Chrome.app</string>
+						<key>installomator</key>
+						<string>googlechromepkg</string>
+						<key>label</key>
+						<string>Google Chrome</string>
+						<key>timeout</key>
+						<integer>600</integer>
+					</dict>
+					<dict>
+						<key>icon</key>
+						<string>/Applications/Slack.app</string>
+						<key>installomator</key>
+						<string>slack</string>
+						<key>label</key>
+						<string>Slack</string>
+						<key>timeout</key>
+						<integer>600</integer>
+					</dict>
+					<dict>
+						<key>icon</key>
+						<string>/Applications/zoom.us.app</string>
+						<key>installomator</key>
+						<string>zoom</string>
+						<key>label</key>
+						<string>Zoom</string>
+						<key>timeout</key>
+						<integer>600</integer>
+					</dict>
+					<dict>
+						<key>icon</key>
+						<string>/Applications/1Password.app</string>
+						<key>installomator</key>
+						<string>1password8</string>
+						<key>label</key>
+						<string>1Password</string>
+						<key>timeout</key>
+						<integer>600</integer>
+					</dict>
+					<dict>
+						<key>icon</key>
+						<string>/Applications/Tailscale.app</string>
+						<key>installomator</key>
+						<string>tailscale</string>
+						<key>label</key>
+						<string>Tailscale</string>
+						<key>timeout</key>
+						<integer>600</integer>
+					</dict>
+					<dict>
+						<key>icon</key>
+						<string>/Applications/Okta Verify.app</string>
+						<key>installomator</key>
+						<string>oktaverify</string>
+						<key>label</key>
+						<string>Okta Verify</string>
+						<key>timeout</key>
+						<integer>600</integer>
+					</dict>
+					<dict>
+						<key>icon</key>
+						<string>/Applications/DisplayLink Manager.app</string>
+						<key>installomator</key>
+						<string>displaylinkmanager</string>
+						<key>label</key>
+						<string>DisplayLink Manager</string>
+						<key>timeout</key>
+						<integer>600</integer>
+					</dict>
+					<dict>
+						<key>icon</key>
+						<string>/Applications/Company Portal.app</string>
+						<key>installomator</key>
+						<string>microsoftcompanyportal</string>
+						<key>label</key>
+						<string>Microsoft Intune</string>
+						<key>timeout</key>
+						<integer>600</integer>
+					</dict>
+					<dict>
+						<key>icon</key>
+						<string>/Applications/Loom.app</string>
+						<key>installomator</key>
+						<string>loom</string>
+						<key>label</key>
+						<string>Loom</string>
+						<key>timeout</key>
+						<integer>600</integer>
+					</dict>
+					<dict>
+						<key>icon</key>
+						<string>/Applications/Windows App.app</string>
+						<key>installomator</key>
+						<string>microsoftremotedesktop</string>
+						<key>label</key>
+						<string>Microsoft Windows App</string>
+						<key>timeout</key>
+						<integer>600</integer>
+					</dict>
+					<dict>
+						<key>icon</key>
+						<string>/Applications/Claude.app</string>
+						<key>installomator</key>
+						<string>claude</string>
+						<key>label</key>
+						<string>Claude</string>
+						<key>timeout</key>
+						<integer>300</integer>
+					</dict>
+					<dict>
+						<key>icon</key>
+						<string>symbol:checkmark.circle</string>
+						<key>label</key>
+						<string>Finalizing Setup</string>
+						<key>recon</key>
+						<true/>
+						<key>timeout</key>
+						<integer>300</integer>
+					</dict>
+				</array>
+				<key>finalAction</key>
+				<string>none</string>
+				<key>finishedTrigger</key>
+				<string>install-jamfconnect</string>
+				<key>icon</key>
+				<string>/Library/Example/logo.png</string>
+				<key>message</key>
+				<string>Setting up your Mac. This may take a few minutes...</string>
+				<key>runAt</key>
+				<string>loginwindow</string>
+				<key>title</key>
+				<string>Welcome to Example</string>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Setup Manager configuration for zero-touch Mac deployment</string>
+		<key>PayloadDisplayName</key>
+		<string>Example Setup Manager</string>
+		<key>PayloadEnabled</key>
+		<true/>
+		<key>PayloadIdentifier</key>
+		<string>57310238-1459-4c24-a84d-efd855b95b63</string>
+		<key>PayloadOrganization</key>
+		<string>example</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>57310238-1459-4c24-a84d-efd855b95b63</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

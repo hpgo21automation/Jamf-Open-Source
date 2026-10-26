@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadDisplayName</key>
+				<string>Cursor Settings</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.cursor.settings</string>
+				<key>PayloadType</key>
+				<string>com.todesktop.230313mzl4w4u92</string>
+				<key>PayloadUUID</key>
+				<string>A1B2C3D4-E5F6-7890-ABCD-EF1234567890</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>extensions.autoCheckUpdates</key>
+				<false/>
+				<key>extensions.autoUpdate</key>
+				<false/>
+				<key>update.mode</key>
+				<string>none</string>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string/>
+		<key>PayloadDisplayName</key>
+		<string>Cursor - Disable Auto Updates</string>
+		<key>PayloadEnabled</key>
+		<true/>
+		<key>PayloadIdentifier</key>
+		<string>2f38c9e0-4345-40e4-aac9-a9ebf5c187dc</string>
+		<key>PayloadOrganization</key>
+		<string>Example</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>2f38c9e0-4345-40e4-aac9-a9ebf5c187dc</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

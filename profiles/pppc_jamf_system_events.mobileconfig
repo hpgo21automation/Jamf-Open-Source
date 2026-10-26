@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadDescription</key>
+				<string/>
+				<key>PayloadDisplayName</key>
+				<string>Privacy Preferences</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadIdentifier</key>
+				<string>com.example.pppc.jamf</string>
+				<key>PayloadOrganization</key>
+				<string>Example</string>
+				<key>PayloadType</key>
+				<string>com.apple.TCC.configuration-profile-policy</string>
+				<key>PayloadUUID</key>
+				<string>PPPC-JAMF-0002-EXAMPLE002</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>Services</key>
+				<dict>
+					<key>AppleEvents</key>
+					<array>
+						<dict>
+							<key>AEReceiverCodeRequirement</key>
+							<string>identifier &#34;com.apple.systemevents&#34; and anchor apple</string>
+							<key>AEReceiverIdentifier</key>
+							<string>com.apple.systemevents</string>
+							<key>AEReceiverIdentifierType</key>
+							<string>bundleID</string>
+							<key>Allowed</key>
+							<true/>
+							<key>CodeRequirement</key>
+							<string>identifier &#34;com.jamfsoftware.jamf&#34; and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = &#34;483DWKW443&#34;</string>
+							<key>Identifier</key>
+							<string>com.jamfsoftware.jamf</string>
+							<key>IdentifierType</key>
+							<string>bundleID</string>
+						</dict>
+						<dict>
+							<key>AEReceiverCodeRequirement</key>
+							<string>identifier &#34;com.apple.systemevents&#34; and anchor apple</string>
+							<key>AEReceiverIdentifier</key>
+							<string>com.apple.systemevents</string>
+							<key>AEReceiverIdentifierType</key>
+							<string>bundleID</string>
+							<key>Allowed</key>
+							<true/>
+							<key>CodeRequirement</key>
+							<string>identifier &#34;com.jamfsoftware.jamf&#34; and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = &#34;483DWKW443&#34;</string>
+							<key>Identifier</key>
+							<string>/usr/local/jamf/bin/jamf</string>
+							<key>IdentifierType</key>
+							<string>path</string>
+						</dict>
+						<dict>
+							<key>AEReceiverCodeRequirement</key>
+							<string>identifier &#34;com.apple.systemevents&#34; and anchor apple</string>
+							<key>AEReceiverIdentifier</key>
+							<string>com.apple.systemevents</string>
+							<key>AEReceiverIdentifierType</key>
+							<string>bundleID</string>
+							<key>Allowed</key>
+							<true/>
+							<key>CodeRequirement</key>
+							<string>identifier &#34;com.jamf.management.daemon&#34; and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = &#34;483DWKW443&#34;</string>
+							<key>Identifier</key>
+							<string>com.jamf.management.daemon</string>
+							<key>IdentifierType</key>
+							<string>bundleID</string>
+						</dict>
+						<dict>
+							<key>AEReceiverCodeRequirement</key>
+							<string>identifier &#34;com.apple.systemevents&#34; and anchor apple</string>
+							<key>AEReceiverIdentifier</key>
+							<string>com.apple.systemevents</string>
+							<key>AEReceiverIdentifierType</key>
+							<string>bundleID</string>
+							<key>Allowed</key>
+							<true/>
+							<key>CodeRequirement</key>
+							<string>identifier &#34;com.jamf.management.agent&#34; and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = &#34;483DWKW443&#34;</string>
+							<key>Identifier</key>
+							<string>com.jamf.management.agent</string>
+							<key>IdentifierType</key>
+							<string>bundleID</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Allows Jamf agent to control System Events for scripting</string>
+		<key>PayloadDisplayName</key>
+		<string>Privacy - Jamf System Events Access</string>
+		<key>PayloadEnabled</key>
+		<true/>
+		<key>PayloadIdentifier</key>
+		<string>c9658cae-b5dc-4cec-b831-ba5408aa8a91</string>
+		<key>PayloadOrganization</key>
+		<string>Example</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>c9658cae-b5dc-4cec-b831-ba5408aa8a91</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

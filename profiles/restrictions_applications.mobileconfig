@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadContent</key>
+				<dict>
+					<key>com.apple.applicationaccess</key>
+					<dict>
+						<key>Forced</key>
+						<array>
+							<dict>
+								<key>mcx_preference_settings</key>
+								<dict>
+									<key>allowAddingGameCenterFriends</key>
+									<false/>
+									<key>allowAppStoreAppAdoption</key>
+									<true/>
+									<key>allowDeprecatedWebKitTLS</key>
+									<false/>
+									<key>allowGameCenter</key>
+									<false/>
+									<key>allowMultiplayerGaming</key>
+									<false/>
+									<key>allowSafariAutofill</key>
+									<false/>
+									<key>allowSoftwareUpdateNotifications</key>
+									<true/>
+									<key>allowiPhoneMirroring</key>
+									<false/>
+									<key>safariAllowHistoryClear</key>
+									<true/>
+									<key>safariAllowPrivateBrowsing</key>
+									<true/>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+				</dict>
+				<key>PayloadDisplayName</key>
+				<string>Custom Settings</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.restrictions.applications.mcx</string>
+				<key>PayloadOrganization</key>
+				<string>Example</string>
+				<key>PayloadType</key>
+				<string>com.apple.ManagedClient.preferences</string>
+				<key>PayloadUUID</key>
+				<string>9C3D5A18-6E2F-4B71-A894-D0E7F3B52C69</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Controls Game Center, iPhone Mirroring, Safari settings, and App Store behavior.</string>
+		<key>PayloadDisplayName</key>
+		<string>Restrictions - Applications</string>
+		<key>PayloadEnabled</key>
+		<true/>
+		<key>PayloadIdentifier</key>
+		<string>36839b74-a230-4202-ad64-a54a9b3d9a26</string>
+		<key>PayloadOrganization</key>
+		<string>Example</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>36839b74-a230-4202-ad64-a54a9b3d9a26</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

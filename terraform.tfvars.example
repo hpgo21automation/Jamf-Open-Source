@@ -1,0 +1,22 @@
+# Copy to terraform.tfvars and fill in real values.
+# terraform.tfvars is gitignored and must never be committed.
+
+# --- Jamf Pro (required) ---
+jamfpro_instance_fqdn = "https://yourtenant.jamfcloud.com"
+jamfpro_client_id     = "REPLACE_ME" # API role client ID
+jamfpro_client_secret = "REPLACE_ME" # API role client secret
+
+# --- CrowdStrike (required) ---
+# CID: 32 hex chars + '-XX' checksum, from Falcon Console > Sensor Downloads.
+crowdstrike_cid = "00000000000000000000000000000000-00"
+# Optional provisioning/installation token (Falcon Console > Installation tokens);
+# leave unset to use the variable default.
+# crowdstrike_provisioning_token = "REPLACE_ME"
+
+# --- Packages (required) ---
+# Numeric Jamf package ID for the Lens installer (Settings > Packages).
+lens_package_id = 0
+
+# --- GitHub (optional) ---
+# Falls back to the GITHUB_TOKEN env var (auto-set in Actions) when unset.
+# github_token = "REPLACE_ME"

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadContent</key>
+				<dict>
+					<key>com.apple.systempreferences</key>
+					<dict>
+						<key>Forced</key>
+						<array>
+							<dict>
+								<key>mcx_preference_settings</key>
+								<dict>
+									<key>DisabledPreferencePanes</key>
+									<array>
+										<string>com.apple.preferences.users</string>
+										<string>com.apple.preferences.FamilySharingPrefPane</string>
+										<string>com.apple.preferences.configurationprofiles</string>
+										<string>com.apple.preferences.sharing</string>
+										<string>com.apple.preference.startupdisk</string>
+										<string>com.apple.prefs.backup</string>
+										<string>com.apple.preferences.wallet</string>
+										<string>com.apple.preferences.internetaccounts</string>
+										<string>com.apple.preference.MobileMe</string>
+										<string>com.apple.Xsan</string>
+										<string>com.apple.preference.FibreChannel</string>
+										<string>com.apple.preferences.parentalcontrols</string>
+										<string>com.oracle.java.JavaControlPanel</string>
+										<string>com.mysql.prefpane</string>
+										<string>com.apple.preferences.AppleIDPrefPane</string>
+										<string>com.apple.preference.security</string>
+									</array>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+				</dict>
+				<key>PayloadDisplayName</key>
+				<string>Custom Settings</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadIdentifier</key>
+				<string>com.example.restrictions.systempreferences.mcx</string>
+				<key>PayloadOrganization</key>
+				<string>JAMF Software</string>
+				<key>PayloadType</key>
+				<string>com.apple.ManagedClient.preferences</string>
+				<key>PayloadUUID</key>
+				<string>2D6A8E4C-7F31-4A92-B5D8-E3C9F1A06B72</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Restricts access to sensitive System Settings panes</string>
+		<key>PayloadDisplayName</key>
+		<string>Restrictions - System Preferences</string>
+		<key>PayloadEnabled</key>
+		<true/>
+		<key>PayloadIdentifier</key>
+		<string>5efc9552-4096-4b08-b379-a8b69986bf73</string>
+		<key>PayloadOrganization</key>
+		<string>Example</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>5efc9552-4096-4b08-b379-a8b69986bf73</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

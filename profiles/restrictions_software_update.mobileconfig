@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadContent</key>
+				<dict>
+					<key>com.apple.applicationaccess</key>
+					<dict>
+						<key>Forced</key>
+						<array>
+							<dict>
+								<key>mcx_preference_settings</key>
+								<dict>
+									<key>enforcedSoftwareUpdateAppDelay</key>
+									<integer>7</integer>
+									<key>enforcedSoftwareUpdateDelay</key>
+									<integer>7</integer>
+									<key>enforcedSoftwareUpdateMajorOSDeferredInstallDelay</key>
+									<integer>7</integer>
+									<key>enforcedSoftwareUpdateMinorOSDeferredInstallDelay</key>
+									<integer>7</integer>
+									<key>forceDelayedAppSoftwareUpdates</key>
+									<true/>
+									<key>forceDelayedMajorSoftwareUpdates</key>
+									<true/>
+									<key>forceDelayedSoftwareUpdates</key>
+									<true/>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+				</dict>
+				<key>PayloadDisplayName</key>
+				<string>Custom Settings</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.softwareupdate.deferral.mcx</string>
+				<key>PayloadOrganization</key>
+				<string>Example</string>
+				<key>PayloadType</key>
+				<string>com.apple.ManagedClient.preferences</string>
+				<key>PayloadUUID</key>
+				<string>SWUPDATE-0002-4E3C-B8A7-EXAMPLE002</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Defers major OS updates by 14 days and minor updates by 7 days</string>
+		<key>PayloadDisplayName</key>
+		<string>Restrictions - Software Update Deferral</string>
+		<key>PayloadEnabled</key>
+		<true/>
+		<key>PayloadIdentifier</key>
+		<string>406210e1-ab2c-432b-a734-455eb2262546</string>
+		<key>PayloadOrganization</key>
+		<string>Example</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>406210e1-ab2c-432b-a734-455eb2262546</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

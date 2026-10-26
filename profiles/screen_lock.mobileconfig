@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadDescription</key>
+				<string/>
+				<key>PayloadDisplayName</key>
+				<string>ScreenSaver</string>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>PayloadIdentifier</key>
+				<string>0BA1A905-565C-4392-9F4A-78C274075FBA</string>
+				<key>PayloadOrganization</key>
+				<string>JAMF Software</string>
+				<key>PayloadType</key>
+				<string>com.apple.screensaver</string>
+				<key>PayloadUUID</key>
+				<string>0BA1A905-565C-4392-9F4A-78C274075FBA</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>askForPassword</key>
+				<true/>
+				<key>askForPasswordDelay</key>
+				<integer>300</integer>
+				<key>idleTime</key>
+				<integer>300</integer>
+				<key>loginWindowIdleTime</key>
+				<integer>300</integer>
+				<key>loginWindowModulePath</key>
+				<string>/System/Library/Screen Savers/Flurry.saver</string>
+			</dict>
+			<dict>
+				<key>PayloadDisplayName</key>
+				<string>Restrictions</string>
+				<key>PayloadIdentifier</key>
+				<string>B0BDA37C-29FE-4F79-91DD-8D287DEC26EB</string>
+				<key>PayloadOrganization</key>
+				<string>JAMF Software</string>
+				<key>PayloadType</key>
+				<string>com.apple.applicationaccess</string>
+				<key>PayloadUUID</key>
+				<string>B0BDA37C-29FE-4F79-91DD-8D287DEC26EB</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>allowAutoUnlock</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>PayloadDisplayName</key>
+				<string>Global Preferences</string>
+				<key>PayloadIdentifier</key>
+				<string>com.example.screensaver.global</string>
+				<key>PayloadType</key>
+				<string>com.apple.GlobalPreferences</string>
+				<key>PayloadUUID</key>
+				<string>SCRNLOCK-0003-4E3C-B8A7-EXAMPLE003</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>com.apple.autologout.AutoLogOutDelay</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Enforces screen lock after 5 minutes of inactivity and requires password immediately upon wake.</string>
+		<key>PayloadDisplayName</key>
+		<string>Security - Screen Lock</string>
+		<key>PayloadEnabled</key>
+		<true/>
+		<key>PayloadIdentifier</key>
+		<string>6bb72d51-3837-46a3-88ea-40d9757da79d</string>
+		<key>PayloadOrganization</key>
+		<string>Example</string>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>6bb72d51-3837-46a3-88ea-40d9757da79d</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>
